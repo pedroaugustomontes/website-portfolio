@@ -4,8 +4,7 @@
     .header_area .main-menu .navbar .navbar-brand,
     .site-main .subscribe-us-area .subscribe .subscribe-title,
     .site-main .subscribe-us-area .subscribe .subscribe-title p, h4,
-    .site-main .services-area,
-    .site-main .subscribe-us-area .subscribe
+    .site-main .services-area
     {
         padding: 2%;
         margin: 0%;
@@ -15,16 +14,27 @@
         font-size: 41px;
     }
 
-    .site-main .subscribe-us-area .subscribe form .input-textbox input{
-        width: 15rem    !important;
+    .site-main .subscribe-us-area .subscribe form .btn-submit button {
+        margin-right: 50%;
     }
 
-    
-    /* .site-main .about-area .w75 p {
-        text-align: center;
-        width: 100% !important;
-    } */
+    .site-main,
+    .footer-area {
+        background: url(../img/banner/contrata.png) no-repeat 20% 12.8%;
+        background-size: 95%;
+    }
 
+}
+
+@media only screen and (max-width: 370px){
+    .fix {
+        justify-content: space-between !important;
+        margin: 0 7%;
+    }
+
+    .botao {
+        margin-left: 5rem;
+    }
 }
 
 
@@ -70,12 +80,18 @@
 
 }
 
-/* @media only screen and (min-width: 792px){
-    .site-main > .services-area .services{
-        padding: 0;
-        margin-left: 30%;
-} */
+@media only screen and (min-width: 991px){
+    .site-main .site-banner .contrata {
+        background: url(../img/banner/contrata.png) no-repeat 0 100%;
+        z-index: 999;
+      }
+}
 
+@media only screen and (max-width: 1200px){
+    .site-main .subscribe-us-area .subscribe form .btn-submit button {
+        margin: 1rem auto;
+      }
+}
 
 
 /* if the viewport is equal to 1910px or less than that */ 
@@ -92,6 +108,5 @@
     .site-main .about-area{
         padding: 3% 4%;
     }
-
 
 }

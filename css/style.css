@@ -43,12 +43,18 @@
 /* end navigation */
 
 /* StartBanner Area */
+
+.site-main {
+  background: url(../img/body-bg.png);
+}
+
 .site-main .site-banner {
-  background: url(../img/banner/home-banner.png) no-repeat 0% 50%;
+  background: url(../img/banner/home-banner-edit.png) repeat 20% 20%;
+  z-index: 999;
 }
 
 .site-main .site-banner .site-title h3 {
-  padding-top: 35%;
+  padding-top: 20%;
   font-weight: 500;
 }
 
@@ -196,7 +202,7 @@
 /* Start Subscribe Area */
 
 .site-main .subscribe-us-area .subscribe {
-  background: url(../img/subscribe-bg.png) no-repeat;
+  background: url(../img/subscribe-bg.png) no-repeat center;
   padding: 10rem 0;
   margin: 3rem auto;
 }
@@ -228,7 +234,6 @@
   background: whitesmoke;
   color: #000000;
   padding: .7rem 2rem;
-  margin-right: auto;
 }
 /* End Subscribe Area */
 
