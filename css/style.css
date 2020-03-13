@@ -10,7 +10,7 @@
 
 /* start navigation */
 .header_area .main-menu .navbar .navbar-brand {
-  padding: 0 2rem 0 3rem;
+  padding: 0 2rem 0 5rem;
 }
 
 .header_area .main-menu .navbar {
@@ -41,7 +41,7 @@
 
 /* StartBanner Area */
 .site-main .site-banner {
-  background: url(../img/banner/home-banner.png) no-repeat 0% 20%;
+  background: url(../img/banner/home-banner.png) no-repeat 0% 50%;
 }
 
 .site-main .site-banner .site-title h3 {
@@ -52,7 +52,7 @@
 .site-main .site-banner .site-title h3::after {
   content: "";
   height: 2px;
-  width: 17.5vw;
+  width: 18vw;
   background: black;
   display: inline-block;
   margin-left: 5%;
@@ -60,7 +60,7 @@
 }
 
 .site-main .site-banner .site-title h1 {
-  font-size: 4rem;
+  font-size: 5rem;
 }
 
 .site-main .site-banner .site-title h4 {
@@ -225,13 +225,14 @@
   background: whitesmoke;
   color: #000000;
   padding: .7rem 2rem;
+  margin-right: auto;
 }
 /* End Subscribe Area */
 
 /* Footer Area */
 footer.footer-area {
   padding: 5rem 0;
-  background-image: url(../img/footer-bg.png) no-repeat;
+  background: url(../img/footer-bg.png) no-repeat;
 }
 
 footer.footer-area {
