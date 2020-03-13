@@ -19,9 +19,11 @@
         width: 15rem    !important;
     }
 
-    .site-main > .services-area .services{
-        width: 13rem;
-    }
+    
+    /* .site-main .about-area .w75 p {
+        text-align: center;
+        width: 100% !important;
+    } */
 
 }
 
@@ -59,7 +61,20 @@
         width: 20rem;
         margin: 5%;
     }
+
+    .site-main > .services-area .services{
+        width: 13rem;
+        margin: 1rem auto;
+    }
+
+
 }
+
+/* @media only screen and (min-width: 792px){
+    .site-main > .services-area .services{
+        padding: 0;
+        margin-left: 30%;
+} */
 
 
 
