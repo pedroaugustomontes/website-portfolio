@@ -14,10 +14,6 @@
         font-size: 41px;
     }
 
-    .site-main .subscribe-us-area .subscribe form .btn-submit button {
-        margin-right: 50%;
-    }
-
     .site-main,
     .footer-area {
         background: url(../img/banner/contrata.png) no-repeat 20% 12.8%;
@@ -28,12 +24,7 @@
 
 @media only screen and (max-width: 370px){
     .fix {
-        justify-content: space-between !important;
-        margin: 0 7%;
-    }
-
-    .botao {
-        margin-left: 5rem;
+        justify-content: center !important;
     }
 }
 
@@ -67,10 +58,6 @@
         padding: 0%;
     }
 
-    .site-main .subscribe-us-area .subscribe form .input-textbox input{
-        width: 20rem;
-        margin: 5%;
-    }
 
     .site-main > .services-area .services{
         width: 13rem;
@@ -88,9 +75,6 @@
 }
 
 @media only screen and (max-width: 1200px){
-    .site-main .subscribe-us-area .subscribe form .btn-submit button {
-        margin: 1rem auto;
-      }
 }
 
 
