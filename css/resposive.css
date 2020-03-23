@@ -10,14 +10,12 @@
         margin: 0%;
     }
 
-    .site-main .site-banner .site-title h1{
-        font-size: 41px;
+    .site-main .services-area {
+        margin-top: 6%;
     }
 
-    .site-main,
-    .footer-area {
-        background: url(../img/banner/contrata.png) no-repeat 20% 12.8%;
-        background-size: 95%;
+    .site-main .site-banner .site-title h1{
+        font-size: 41px;
     }
 
 }
@@ -26,10 +24,15 @@
     .fix {
         justify-content: center !important;
     }
+
+    .site-main,
+    .footer-area {
+        background: url(../img/banner/contrata.png) no-repeat 20% 13.3%;
+        background-size: 95%;
+    }
 }
 
-
-/* if the viewport is equal to 340px or less than that */ 
+/* if the viewport is equal to 792px or less than that */ 
 @media only screen and (max-width: 792px){
     .site-main .about-area .about-title h2 > span{
         font-size: 31px;
@@ -58,12 +61,10 @@
         padding: 0%;
     }
 
-
     .site-main > .services-area .services{
         width: 13rem;
         margin: 1rem auto;
     }
-
 
 }
 
@@ -72,11 +73,13 @@
         background: url(../img/banner/contrata.png) no-repeat 0 100%;
         z-index: 999;
       }
-}
 
-@media only screen and (max-width: 1200px){
-}
+      .site-main .subscribe-us-area .subscribe form .input-textbox a {
+        width: 350px;
+        height: 90px;
+      }
 
+}
 
 /* if the viewport is equal to 1910px or less than that */ 
 @media only screen and (max-width: 1910px){

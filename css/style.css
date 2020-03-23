@@ -88,6 +88,10 @@
   padding: 8rem 5rem;
 }
 
+.site-main .about-area .oloco{
+  margin-top: 3rem;
+}
+
 .site-main .about-area .about-title h2 > span {
   display: block;
   font: normal bold 49px/ 60px var(--roboto);
@@ -103,7 +107,7 @@
 /* Start Qualidades Area */
 
 .site-main .services-area {
-  padding: 7rem 2rem;
+  padding: 3rem 2rem;
 }
 
 .site-main .services-area .services-title {
@@ -143,7 +147,7 @@
 }
 
 .site-main .project-area .button-group button+button{
-  padding-left: 3rem;
+  padding-left: 2rem;
 }
 
 .site-main .project-area .grid .our-project > .title h4 {
@@ -203,8 +207,8 @@
 
 .site-main .subscribe-us-area .subscribe {
   background: url(../img/subscribe-bg.png) no-repeat center;
-  padding: 10rem 0;
-  margin: 3rem auto;
+  padding: 8rem 0;
+  margin: 0 auto;
 }
 
 .site-main .subscribe-us-area .subscribe .subscribe-title h4 {
@@ -218,8 +222,8 @@
 }
 
 .site-main .subscribe-us-area .subscribe form .input-textbox a {
-  width: 350px;
-  height: 50px;
+  width: 245px;
+  height: 90px;
   border: 1px solid whitesmoke;
   background: transparent;
   color: whitesmoke;
@@ -236,7 +240,7 @@
 }
 
 div.subscribe-form i {
-  font-size: 20px;
+  font-size: 30px;
   padding: 0.5rem 0.5rem;
 }
 
@@ -253,7 +257,7 @@ footer.footer-area {
 } 
 
 footer.footer-area a > i {
-  font-size: 50px;
+  font-size: 100px;
   padding: 2rem;
   color: var(--border-color);
 }
