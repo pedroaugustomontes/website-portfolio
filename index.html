@@ -3,8 +3,10 @@
 <head>
   <meta charset="UTF- 8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Olá, eu sou o Pedro</title>
+  <title>Olá, eu sou Pedro</title>
 
+  <!-- link to FavIcon css -->
+  <link rel="icon" href="./img/fav-eu.gif" type="image/gif" sizes="16x16">
   <!-- link to Bootstrap css -->
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <!-- font to awesome icons -->
@@ -34,13 +36,13 @@
               <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Sobre</a>
+              <a class="nav-link" href="#sobre">Sobre</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Portfólio</a>
+              <a class="nav-link" href="#portfolio">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contato</a>
+              <a class="nav-link" href="#contato">Contato</a>
             </li>
 
           </ul>
@@ -60,11 +62,11 @@
           <div class="row">
             <div class="col-lg-6 col-md-12 site-title">
               <h3 class="title-text">Olá</h3>
-              <h1 class="title-text text-uppercase">Eu sou o Pedro</h1>
+              <h1 class="title-text text-uppercase">Eu sou Pedro</h1>
               <h4 class="title-text text-uppercase">Noob Front-end Devoloper</h4>
                 <div class="site-buttons">
                   <div class="d-flex flex-row flex-wrap">
-                    <button type="button" class="btn button primary-button mr-4 text-uppercase">me contrate</button>
+                    <button type="button" class="btn button primary-button mr-4 text-uppercase"><a href="#contato"> me contrate</a></button>
                     <button type="button" class="btn button secondary-button text-uppercase">baixar cv</button>
                   </div>
                 </div>
@@ -78,8 +80,8 @@
   <!-- ============== END BANNER AREA ============== -->
   
   <!-- ============== START SOBRE AREA ============== -->
-
-  <section class="about-area">
+  <div class="scroll" id="sobre"></div>
+  <section class="about-area" >
     <div class="container-fluid">
       <div class="row">
         <div class="col-lg-6 col-md-12">
@@ -89,8 +91,8 @@
         </div>
         <div class="col-lg-6 col-md-12 about-title">
           <h2 class="text-uppercase pt-5">
-            <span class="text-nowrap">deixe-me</span>
-            <span>me apresentar</span>
+            <span class="text-nowrap">deixe me</span>
+            <span>apresentar</span>
             <span>a você</span>
           </h2>
           <div class="paragraph py-4">
@@ -125,12 +127,12 @@
           <div class="col-lg-3 col-md-6 col-sm-12">
             <div class="services">
               <div class="services-img text-center py-4">
-                <img src="./img/services/s1.png" alt="Qualidade-1">
+                <i class="fab fa-html5"></i>
               </div>
               <div class="card-body text-center">
-                <h5 class="card-title text-uppercase font-roboto">Wp developer</h5>
+                <h5 class="card-title text-uppercase font-roboto">HTML 5</h5>
                 <p class="card-text text-secondary">
-                  Some quick example text to build on the card title and make up the bulk of the card's content.
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque omnis, ratione beatae odit fugiat deleniti.
                 </p>
               </div>
             </div>
@@ -138,12 +140,12 @@
           <div class="col-lg-3 col-md-6 col-sm-12">
             <div class="services">
               <div class="services-img text-center py-4">
-                <img src="./img/services/s2.png" alt="Qualidade-2">
+                <i class="fab fa-css3-alt secondcolor"></i>
               </div>
               <div class="card-body text-center">
-                <h5 class="card-title text-uppercase font-roboto">ui/ux design</h5>
+                <h5 class="card-title text-uppercase font-roboto">CSS 3</h5>
                 <p class="card-text text-secondary">
-                  Some quick example text to build on the card title and make up the bulk of the card's content.
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque omnis, ratione beatae odit fugiat deleniti.
                 </p>
               </div>
             </div>
@@ -151,12 +153,12 @@
           <div class="col-lg-3 col-md-6 col-sm-12">
             <div class="services">
               <div class="services-img text-center py-4">
-                <img src="./img/services/s3.png" alt="Qualidade-3">
+                <i class="fab fa-js-square"></i>
               </div>
               <div class="card-body text-center">
-                <h5 class="card-title text-uppercase font-roboto">web design</h5>
+                <h5 class="card-title text-uppercase font-roboto">javascript</h5>
                 <p class="card-text text-secondary">
-                  Some quick example text to build on the card title and make up the bulk of the card's content.
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque omnis, ratione beatae odit fugiat deleniti.
                 </p>
               </div>
             </div>
@@ -164,12 +166,12 @@
           <div class="col-lg-3 col-md-6 col-sm-12">
             <div class="services">
               <div class="services-img text-center py-4">
-                <img src="./img/services/s4.png" alt="Qualidade-4">
+                <i class="fab fa-bootstrap secondcolor"></i>
               </div>
               <div class="card-body text-center">
-                <h5 class="card-title text-uppercase font-roboto">SEO optimize</h5>
+                <h5 class="card-title text-uppercase font-roboto">bootstrap</h5>
                 <p class="card-text text-secondary">
-                  Some quick example text to build on the card title and make up the bulk of the card's content.
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque omnis, ratione beatae odit fugiat deleniti.
                 </p>
               </div>
             </div>
@@ -182,11 +184,12 @@
 
 
   <!-- ============== START PORTFOLIO AREA ============== -->
+  <div class="scroll" id="portfolio"></div>
   <section class="project-area">
     <div class="container">
       <div class="project-title pb-5">
-        <h1 class="text-uppercase title-h1">Projetos desenvolvidos</h1>
-        <h1 class="text-uppercase title-h1">Com amor</h1>
+        <h1 class="text-uppercase title-h1">Projetos desenvolvidos/</h1>
+        <h1 class="text-uppercase title-h1">Portfolio</h1>
       </div>
 
       <div class="button-group">
@@ -197,7 +200,7 @@
       </div>
 
       <div class="row grid">
-        <div class="col-lg-4 col-md-6 col-sm-12 element-item breve">
+        <div class="col-lg-4 col-md-6 col-sm-12 element-item popular">
           <div class="our-project">
             <div class="img">
               <a href="https://google.com" class="">
@@ -206,7 +209,7 @@
             </div>
             <div class="title py-4">
               <h4 class="text-uppercase">Minimul Design</h4>
-              <span class="text-secondary">Latest, Portfolio</span>
+              <span class="text-secondary">Popular, Portfolio</span>
             </div>
           </div>
         </div>
@@ -217,7 +220,7 @@
             </div>
             <div class="title py-4">
               <h4 class="text-uppercase">Paint wall</h4>
-              <span class="text-secondary">Latest, Portfolio</span>
+              <span class="text-secondary">Recente, Portfolio</span>
             </div>
           </div>
         </div>
@@ -239,18 +242,18 @@
             </div>
             <div class="title py-4">
               <h4 class="text-uppercase">Minimul Design</h4>
-              <span class="text-secondary">Latest, Portfolio</span>
+              <span class="text-secondary">Em Breve, Portfolio</span>
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 col-sm-12 element-item latest">
+        <div class="col-lg-4 col-md-6 col-sm-12 element-item breve">
           <div class="our-project">
             <div class="img">
               <img src="./img/portfolio/p5.jpg" alt="portfolio-1" class="img-fluid">
             </div>
             <div class="title py-4">
               <h4 class="text-uppercase">Paint wall</h4>
-              <span class="text-secondary">Latest, Portfolio</span>
+              <span class="text-secondary">Em Breve, Portfolio</span>
             </div>
           </div>
         </div>
@@ -268,7 +271,7 @@
         <div class="col-12">
           <div class="about-title">
             <h1 class="text-uppercase title-h1">O que dizem sobre mim </h1>
-            <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo officiis reiciendis perferendis, at exercitationem ipsa culpa doloribus assumenda necessitatibus nulla?</p>
+            <p class="para">Uma breve introdução mostrando o que alguns seres vivos dizem sobre o pedroca pipoca nariz de taboca</p>
           </div>
         </div>
       </div>
@@ -278,56 +281,57 @@
       <div class="owl-carousel owl-theme">
         <div class="client row">
           <div class="col-lg-4 col-md-12 client-img">
-            <img src="./img/sobre/t1.jpg" alt="img1" class="img-fluid">
+            <img src="./img/sobre/teo.jpg" alt="img1" class="img-fluid">
           </div>
           <div class="col-lg-8 col-md-12 about-client">
-            <h4 class="text-uppercase">Homem Bom</h4>
-            <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non perspiciatis, incidunt in officiis quas distinctio.</p>
+            <h4 class="text-uppercase">Teté</h4>
+            <p class="para">Papai vamos passear? Au Au!</p>
           </div>
         </div>
         <div class="client row">
           <div class="col-lg-4 col-md-12 client-img">
-            <img src="./img/sobre/t2.jpg" alt="img2" class="img-fluid">
+            <img src="./img/sobre/dudu.jpg" alt="img2" class="img-fluid">
           </div>
           <div class="col-lg-8 col-md-12 about-client">
-            <h4 class="text-uppercase">Homem Bacana</h4>
-            <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non perspiciatis, incidunt in officiis quas distinctio.</p>
+            <h4 class="text-uppercase">Dudu</h4>
+            <p class="para">O papai é d+++, ele me leva pra passear sem coleira! Auuuuuuuuuuu.</p>
           </div>
         </div>
         <div class="client row">
           <div class="col-lg-4 col-md-12 client-img">
-            <img src="./img/sobre/t1.jpg" alt="img1" class="img-fluid">
+            <img src="./img/sobre/dogs.jpg" alt="img1" class="img-fluid">
           </div>
           <div class="col-lg-8 col-md-12 about-client">
-            <h4 class="text-uppercase">Homem Bom</h4>
-            <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non perspiciatis, incidunt in officiis quas distinctio.</p>
+            <h4 class="text-uppercase">Dudu e Teté</h4>
+            <p class="para">Só o papaizinho passeia com a gente.<br> Au Au!</p>
           </div>
         </div>
         <div class="client row">
           <div class="col-lg-4 col-md-12 client-img">
-            <img src="./img/sobre/t2.jpg" alt="img2" class="img-fluid">
+            <img src="./img/sobre/mamis.jpg" alt="img2" class="img-fluid">
           </div>
           <div class="col-lg-8 col-md-12 about-client">
-            <h4 class="text-uppercase">Homem Bacana</h4>
-            <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non perspiciatis, incidunt in officiis quas distinctio.</p>
+            <h4 class="text-uppercase">Mamis Poderosa</h4>
+            <p class="para"> O Pedro é o hacker da família, quando a internet cai, é ele quem devemos chamar.</p>
           </div>
         </div>
         
       </div>
+      <div class="scroll" id="contato"></div>
     </div>
   </section>
   <!-- ============== END DEPOIMENTO AREA ============== -->
 
 
   <!-- ============== START CONTATO AREA ============== -->
-  <div class="subscribe-us-area">
-    <div class="container subscribe">
+  <section class="subscribe-us-area">
+    <div class="container subscribe" >
       <div class="row">
         <div class="col-lg-12 text-center subscribe-title">
           <h4 class="text-uppercase">
             Contato
           </h4>
-          <p class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio, magni!</p>
+          <p class="para">Aqui vc encontra todas minhas formas de contato para dicas de como passear com seu pet em tempos de quarentena e possiveis propostas de emprego como desenvolvedor. </p>
         </div>
       </div>
       <div class="subscribe-form d-flex justify-content-center text-center">
@@ -345,7 +349,7 @@
         </form>
       </div>
     </div>
-  </div>
+  </section>
   <!-- ============== END CONTATO AREA ============== -->
 
   
@@ -355,13 +359,14 @@
   <footer class="footer-area">
     <div class="container">
       <div class="">
-        <div class="site-logo text-center py-4">
-          <a href="#"><img src="./img/logo.png" alt="logo"></a>
-        </div>
+
         <div class="social text-center">
           <h3 class="text-uppercase">Redes Sociais</h5>
           <a href="https://github.com/MrPMontes" target="_blank"><i class="fab fa-github" ></i></a>
           <a href="https://www.linkedin.com/in/pedro-augusto-montes-sales-320661104/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <div class="site-logo text-center py-4">
+          <a href="#"><img src="./img/logo.png" alt="logo"></a>
         </div>
         <div class="copyrights text-center">
           <p class="para">

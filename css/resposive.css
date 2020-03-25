@@ -10,13 +10,17 @@
         margin: 0%;
     }
 
+    .site-main .subscribe-us-area .subscribe .subscribe-title p:last-of-type {
+        padding: 5%;
+    }
+
     .site-main .services-area {
         margin-top: 6%;
     }
 
-    .site-main .site-banner .site-title h1{
+    /* .site-main .site-banner .site-title h1{
         font-size: 41px;
-    }
+    } */
 
 }
 
@@ -27,9 +31,47 @@
 
     .site-main,
     .footer-area {
-        background: url(../img/banner/contrata.png) no-repeat 20% 13.3%;
+        background: url(../img/banner/contrata.png) no-repeat 50% 13%;
         background-size: 95%;
     }
+}
+
+
+@media only screen and (min-width: 341px) and (max-width: 411px){
+    .site-main,
+    .footer-area {
+        background: url(../img/banner/contrata.png) no-repeat 50% 13.3%;
+        background-size: 90%;
+    }
+}
+
+@media only screen and (min-width: 412px) and (max-width: 518px){
+    .site-main,
+    .footer-area {
+        background: url(../img/banner/contrata.png) no-repeat 50% 12.3%;
+        background-size: 90%;
+    }
+}
+
+@media only screen and (min-width: 519px) and (max-width: 561px){
+    .site-main,
+    .footer-area {
+        background: url(../img/banner/contrata.png) no-repeat 50% 13%;
+        background-size: 90%;
+    }
+}
+@media only screen and (min-width: 562px) and (max-width: 612px){
+    .site-main,
+    .footer-area {
+        background: url(../img/banner/contrata.png) no-repeat 50% 13.7%;
+        background-size: 80%;
+    }
+}
+
+@media only screen and (max-width: 635px){
+    .header_area .main-menu .navbar .navbar-brand {
+        padding: 0 2rem 0 0.3rem;
+      }
 }
 
 /* if the viewport is equal to 792px or less than that */ 
@@ -37,20 +79,6 @@
     .site-main .about-area .about-title h2 > span{
         font-size: 31px;
         letter-spacing: 10px;
-    }
-
-    .site-main .brand-area .experience-area .years-area{
-        padding-left: 1%;
-        width: 49%;
-    }
-
-    .site-main .brand-area .experience-area .bg-panel{
-        margin-left: 30%;
-        width: 80%;   
-    }
-
-    .site-main .brand-area .experience-area .call-area{
-        padding-left: 3%;
     }
 
     .site-main .project-area .button-group button{
@@ -79,6 +107,18 @@
         height: 90px;
       }
 
+      .site-main .subscribe-us-area .subscribe .subscribe-title p:last-of-type {
+        max-width: 500px;
+        margin: 0 auto 2rem auto;
+        
+    }
+
+}
+
+@media only screen and (max-width: 991px){
+    .header_area .main-menu .navbar .navbar-brand {
+        padding: 0 2rem 0 0.3rem;
+      }
 }
 
 /* if the viewport is equal to 1910px or less than that */ 
@@ -95,5 +135,7 @@
     .site-main .about-area{
         padding: 3% 4%;
     }
+
+
 
 }

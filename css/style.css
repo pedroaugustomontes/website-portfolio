@@ -9,7 +9,7 @@
 
 /* start navigation */
 .header_area .main-menu .navbar .navbar-brand {
-  padding: 0 2rem 0 5rem;
+  padding: 0 2rem 0 4rem;
 }
 
 .header_area .main-menu .navbar {
@@ -110,6 +110,15 @@
   padding: 3rem 2rem;
 }
 
+.site-main .services-area i{
+  font-size: 64px;
+  color: var(--primary-color);
+}
+
+.site-main .services-area .secondcolor{
+  color: var(--primary-color2);
+}
+
 .site-main .services-area .services-title {
   padding: 0 14rem;
 }
@@ -136,7 +145,7 @@
 /* Start Portfolio Area */
 
 .site-main .project-area {
-  padding: 4rem 0;
+  padding-bottom: 4rem;
 }
 
 .site-main .project-area .button-group button{
@@ -161,6 +170,10 @@
 /* End Portfolio Area */
 
 /* Start Sobre Area */
+
+.site-main .scroll {
+  min-height: 50px;
+}
 
 .site-main .about-area .about-title p {
   padding: 1rem 7rem;
@@ -207,6 +220,7 @@
 
 .site-main .subscribe-us-area .subscribe {
   background: url(../img/subscribe-bg.png) no-repeat center;
+  background-size: cover;
   padding: 8rem 0;
   margin: 0 auto;
 }
@@ -227,7 +241,7 @@
   border: 1px solid whitesmoke;
   background: transparent;
   color: whitesmoke;
-  font: italic 400 20px/25px var(--roboto);
+  font: italic 400 18px/25px var(--roboto);
   text-align: center;
 }
 
