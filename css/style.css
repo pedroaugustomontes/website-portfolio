@@ -183,6 +183,7 @@
   background: #ffffff10;
   box-shadow: var(--box-shadow);
   margin: 3rem 0rem;
+  flex-grow: 1;
 }
 
 .site-main .about-area .client-img {
